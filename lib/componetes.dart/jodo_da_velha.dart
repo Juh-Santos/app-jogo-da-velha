@@ -177,6 +177,10 @@ class _JogoDaVelhaState extends State<JogoDaVelha> {
             ),
           ),
         ),
+        ElevatedButton(
+          onPressed: _iniciarJogo,
+          child: const Text('Reiniciar Jogo'),
+        ),
       ],
     );
   }
